@@ -20,7 +20,7 @@ const Register = () => {
 
             <Container>
                 <Row>
-                    <Col md={6} className='border rounded'>
+                    <Col md={6} className='border rounded mt-2'>
                         <Form className='my-2' noValidate validated={validated} onSubmit={handleSubmit}>
                             <Row className="mb-3">
                                 <Form.Group as={Col} md="4" controlId="validationCustom01">

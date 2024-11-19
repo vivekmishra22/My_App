@@ -18,7 +18,7 @@ const MyCard = () => {
                         <Card>
                             <Card.Img variant="top" src={Movie1} style={{ height: '300px', objectFit: 'cover' }}/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Avengers</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -26,7 +26,7 @@ const MyCard = () => {
                         <Card>
                             <Card.Img variant="top" src={Movie2} style={{ height: '300px', objectFit: 'cover' }}/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>KGF</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -34,7 +34,7 @@ const MyCard = () => {
                         <Card>
                             <Card.Img variant="top" src={Movie3} style={{ height: '300px', objectFit: 'cover' }}/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Black Panther</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -42,7 +42,7 @@ const MyCard = () => {
                         <Card>
                             <Card.Img variant="top" src={Movie4} style={{ height: '300px', objectFit: 'cover' }}/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Kabir Singh</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -50,7 +50,7 @@ const MyCard = () => {
                         <Card>
                             <Card.Img variant="top" src={Movie5} style={{ height: '300px', objectFit: 'cover' }}/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Thor</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -58,7 +58,7 @@ const MyCard = () => {
                         <Card>
                             <Card.Img variant="top" src={Movie6} style={{ height: '300px', objectFit: 'cover' }}/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Raees</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>

@@ -19,8 +19,8 @@ const MyNavbar = () => {
               <Nav.Link href="#link">&#x1F3D0; Sports</Nav.Link>
             </Nav>
             <div className="button-group d-flex ms-auto">
-              <Button variant="primary" href='./LoginForm' className='me-2'>Register</Button>
-              <Button variant="success">Login</Button>
+              <Button variant="primary" href='/Register' className='me-2'>Register</Button>
+              <Button variant="success"  href='/Login'>Login</Button>
             </div>
           </Navbar.Collapse>
         </Container>
