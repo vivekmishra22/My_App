@@ -1,31 +1,30 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import icon1 from '../Assets/Images/Icon1.png'
-import icon2 from '../Assets/Images/Icon2.png'
-import icon3 from '../Assets/Images/Icon3.png'
-import icon4 from '../Assets/Images/Icon4.png'
-
+import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa';
 const Footer = () => {
     return (
         <>
             <Container fluid className='bg-dark py-3' variant='dark'>
                 <Row>
                     <div className="share-icon d-flex justify-content-center align-items-center">
+                    {/* <CircumIcon name="facebook"/> */}
                         <a href="https://facebook.com" className=' mx-2 text-white text-decoration-none'>
-                            <img className='rounded-circle p-1 bg-success' style={{ height: '40px', objectFit: 'cover' }} src={icon1} alt="" />
+                        <FaFacebook size={30} color="aqua" />
                             {' '}Facebook
                         </a>
                         <a href="https://facebook.com" className=' mx-2 text-white text-decoration-none'>
-                            <img className='rounded-circle p-1 bg-success' style={{ height: '40px', objectFit: 'cover' }} src={icon2} alt="" />
-                            {' '}Instagram
+                        <FaInstagram size={30} color="red" />
+                        {' '}Instagram
                         </a>
                         <a href="https://facebook.com" className='mx-2 text-white text-decoration-none'>
-                            <img className='rounded-circle p-1 bg-success' style={{ height: '40px', objectFit: 'cover' }} src={icon3} alt="" />
+                        <FaTwitter size={30} color="blue" />
                             {' '}Twitter
+                            {/* <img className='rounded-circle p-1 bg-success' style={{ height: '40px', objectFit: 'cover' }} src={icon3} alt="" />
+                            {' '}Twitter */}
                         </a>
                         <a href="https://facebook.com" className='mx-2 text-white text-decoration-none'>
-                            <img className='rounded-circle p-1 bg-success' style={{ height: '40px', objectFit: 'cover' }} src={icon4} alt="" />
-                            {' '}Github
+                        <FaGithub size={30} color="white" />
+                        {' '}Github
                         </a>
                     </div>
                 </Row>
